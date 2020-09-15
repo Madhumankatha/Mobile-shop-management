@@ -33,6 +33,7 @@ public class BillingDB {
             + "email=?,address=?,model=?,imei=?,price=?,qty=?,date=?,time=?,"
             + "payment=?,billno=?) WHERE id=?";
 
+    
     private String deleteQuery = "DELETE FROM `billing` WHERE id=?";
 
     private String searchQuery = "SELECT * FROM `billing` WHERE `billno`=?";
